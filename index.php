@@ -27,8 +27,7 @@ th {
 <body>
 <h1>hola mundo</h1>
 <?php  
-	$a = 'hola mundo desde php';
-	echo $a;
+	$n = 'Bill Gates';
 ?>
 <table style="width:50%">
   <tr>
@@ -36,7 +35,9 @@ th {
     <th colspan="1">Telephone</th>
   </tr>
   <tr>
-    <td>Bill Gates</td>
+  	<?php  
+    echo '<td>'; echo $n; echo '</td>';
+    ?>
     <td>55577854</td>
   </tr>
 </table>
