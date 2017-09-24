@@ -9,6 +9,8 @@
 	$a = 'hola mundo desde php';
 	echo $a;
 ?>
-
+<table>
+	<li>nro</li>
+</table>
 </body>
 </html>
