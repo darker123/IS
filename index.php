@@ -28,6 +28,7 @@ th {
 <h1>hola mundo</h1>
 <?php  
 	$n = 'Bill Gates';
+	$m = 'ariel';
 ?>
 <table style="width:50%">
   <tr>
@@ -39,6 +40,13 @@ th {
     echo '<td>'; echo $n; echo '</td>';
     ?>
     <td>55577854</td>
+  </tr>
+  	<?php  
+    echo '<td>'; echo $m; echo '</td>';
+    ?>
+    <td>55577854</td>
+  <tr>
+  	
   </tr>
 </table>
 </body>
